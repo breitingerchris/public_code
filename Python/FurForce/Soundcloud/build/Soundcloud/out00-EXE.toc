@@ -1,0 +1,9 @@
+('E:\\Python\\FurForce\\Soundcloud\\dist\\FurForce Soundcloud.exe',
+ True,
+ False,
+ 'Checker.ico',
+ None,
+ [],
+ False,
+ True,
+ 1401158667L)

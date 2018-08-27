@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Tumblr.dproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="main.d">
+    <Files>
+      <File FileName="main.d" Line="77" Column="77" />
+      <File FileName="..\Cracker\main.d" Line="1" Column="1" />
+      <File FileName="..\Amazon\main.d" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

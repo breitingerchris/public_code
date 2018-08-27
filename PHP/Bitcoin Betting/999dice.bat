@@ -1,0 +1,1 @@
+php 999dice.php

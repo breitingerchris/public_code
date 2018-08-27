@@ -1,0 +1,1 @@
+C:\Python27\Scripts\pyinstaller.exe -F -n "HWID" HWID.py

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "Netflix", "Netflix.dproj", "{9688A479-34CD-4585-AA80-B67FA410ADF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Unittest|Any CPU = Unittest|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9688A479-34CD-4585-AA80-B67FA410ADF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9688A479-34CD-4585-AA80-B67FA410ADF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9688A479-34CD-4585-AA80-B67FA410ADF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9688A479-34CD-4585-AA80-B67FA410ADF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9688A479-34CD-4585-AA80-B67FA410ADF9}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{9688A479-34CD-4585-AA80-B67FA410ADF9}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+	EndGlobalSection
+EndGlobal

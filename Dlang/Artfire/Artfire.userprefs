@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Artfire.dproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="main.d">
+    <Files>
+      <File FileName="..\Fiverr\main.d" Line="1" Column="1" />
+      <File FileName="main.d" Line="17" Column="17" />
+      <File FileName="..\Amazon\main.d" Line="39" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1420574135 source:c:\users\chris\desktop\d\proxy\hello.d
+	<std/stdio.d>
+	<std/exception.d>
+	<std/net/curl.d>
+	<core/time.d>
+	<std/file.d>
+	<std/parallelism.d>
+	<std/string.d>
+	<std/random.d>
+	<std/conv.d>
+

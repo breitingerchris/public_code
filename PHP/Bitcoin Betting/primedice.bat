@@ -1,0 +1,1 @@
+php primedice.php

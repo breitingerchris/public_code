@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B715AAB-74B2-47E4-8A56-BB8F1686FE42}</ProjectGuid>
+    <Compiler>DMD2</Compiler>
+    <PreferOneStepBuild>true</PreferOneStepBuild>
+    <UseDefaultCompiler>false</UseDefaultCompiler>
+    <IncrementalLinking>true</IncrementalLinking>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug</OutputPath>
+    <Externalconsole>true</Externalconsole>
+    <Target>Executable</Target>
+    <OutputName>AmazonNew</OutputName>
+    <UnittestMode>false</UnittestMode>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+    <ObjectsDirectory>obj\Debug</ObjectsDirectory>
+    <DebugLevel>0</DebugLevel>
+    <Libs>
+      <Libs>
+        <Lib>gtkd.lib</Lib>
+        <Lib>curl.lib</Lib>
+      </Libs>
+    </Libs>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <Externalconsole>true</Externalconsole>
+    <Target>Executable</Target>
+    <OutputName>AmazonNew</OutputName>
+    <UnittestMode>false</UnittestMode>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+    <ObjectsDirectory>obj\Release</ObjectsDirectory>
+    <DebugLevel>0</DebugLevel>
+    <ExtraCompilerArguments>-inline </ExtraCompilerArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unittest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Unittest</OutputPath>
+    <Externalconsole>true</Externalconsole>
+    <Target>Executable</Target>
+    <OutputName>AmazonNew</OutputName>
+    <UnittestMode>true</UnittestMode>
+    <LinkinThirdPartyLibraries>false</LinkinThirdPartyLibraries>
+    <ObjectsDirectory>obj\Unittest</ObjectsDirectory>
+    <DebugLevel>0</DebugLevel>
+    <Libs>
+      <Libs>
+        <Lib>gtkd.lib</Lib>
+      </Libs>
+    </Libs>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main.d" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libgtkd-3.a" />
+  </ItemGroup>
+</Project>
